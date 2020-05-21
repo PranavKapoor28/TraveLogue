@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TemplesActivity">
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FAF9F9"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/t"
+            android:layout_width="208dp"
+            android:layout_height="51dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="42sp"
+            android:gravity="center"
+            android:text="Temples"
+            android:textColor="#041C93"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/button11"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="411dp"
+            android:layout_height="224dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/temples" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#040303"></View>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/list1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_marginTop="10dp"
+            android:background="#E4E0E0"
+            android:elevation="22sp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="80dp"
+                android:layout_height="55dp"
+                android:padding="5dp"
+                app:srcCompat="@drawable/shani" />
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="288dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center_vertical"
+                android:paddingLeft="15dp"
+                android:text="SHANI DEV MANDIR"
+                android:textColor="#050505"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#090909"
+            android:elevation="22sp"></View>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/list2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="#E8E2E2"
+            android:elevation="22sp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="80dp"
+                android:layout_height="55dp"
+                android:padding="5dp"
+                app:srcCompat="@drawable/gurudwara" />
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="288dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center_vertical"
+                android:paddingLeft="15dp"
+                android:text="Gurudwara"
+                android:textColor="#040403"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#0B0A0A"></View>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/list3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="#E1DCDC"
+            android:elevation="22sp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="80dp"
+                android:layout_height="55dp"
+                android:padding="5dp"
+                app:srcCompat="@drawable/masjid" />
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="288dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center_vertical"
+                android:paddingLeft="15dp"
+                android:text="Masjid"
+                android:textColor="#050505"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#050505"
+            android:elevation="22sp"></View>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/list4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="#EAE4E4"
+            android:elevation="22sp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/PotatoeImage"
+                android:layout_width="80dp"
+                android:layout_height="55dp"
+                android:padding="5dp"
+                app:srcCompat="@drawable/church" />
+
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="288dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center_vertical"
+                android:paddingLeft="15dp"
+                android:text="Church"
+                android:textColor="#050505"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#070707"></View>
+
+
+    </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

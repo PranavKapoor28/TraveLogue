@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#000000"
+    android:layout_height="match_parent">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="About"
+        android:textColor="#FA5D02"
+
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.03" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="396dp"
+        android:layout_height="388dp"
+        android:layout_gravity="center"
+        android:gravity="center|start"
+        android:padding="10dp"
+        android:text="Jama Masjid of Delhi, Jama Masjid also spelled Jāmiʿ Masjid, Jama Masjid of Delhi also called Masjid-i Jahānnumā, mosque in Old Delhi, India, constructed in 1650–56 by the Mughal emperor Shah Jahān, a noted patron of Islamic architecture whose most famous work is the Taj Mahal, in Agra. Jama Masjid, now the second largest mosque on the Indian subcontinent, is also an impressive example of Mughal architecture."
+        android:textColor="#ECE8E6"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/abel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="396dp"
+        android:layout_height="598dp"
+        android:layout_gravity="center"
+        android:gravity="start|center"
+        android:padding="10dp"
+        android:text="Jama Masjid is Delhi’s principal mosque, the place where the city’s Muslims traditionally gather for Friday communal prayer; Jama Masjid is Arabic for “Friday mosque.” The mosque is near the Red Fort, yet another of Shah Jahān’s buildings. Jama Masjid and its courtyard stand on an outcropping more than 30 steps higher than the street, giving the mosque a commanding view of the surrounding area. The longer name, Masjid-i Jahānnumā, translates to “world-reflecting mosque” or “world-displaying mosque.” The mosque was built by a crew of some 5,000 workers. The principal construction material was red sandstone, but some white marble was also used."
+        android:textColor="#ECE8E6"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/abel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
